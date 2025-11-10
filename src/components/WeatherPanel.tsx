@@ -41,7 +41,7 @@ interface WeatherPanelProps {
 }
 
 // Função para identificar a região brasileira baseada nas coordenadas
-const getBrazilianRegion = (lat: number, lng: number): { region: string; state: string } => {
+const getBrazilianRegion = (lat: number, _lng: number): { region: string; state: string } => {
   if (lat > 4.0) return { region: 'Norte', state: 'Amapá' };
   if (lat > 1.0) return { region: 'Norte', state: 'Pará' };
   if (lat > -2.5) return { region: 'Nordeste', state: 'Maranhão' };

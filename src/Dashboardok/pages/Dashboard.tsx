@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Map, TrendingUp, Thermometer, Wind, Eye, Waves, Gauge, AlertTriangle, Navigation, Fish, Anchor, Compass } from 'lucide-react';
+import { Map, TrendingUp, Thermometer, Wind, Eye, Waves, Gauge, AlertTriangle, Navigation, Fish, Compass } from 'lucide-react';
 import { useAppContext } from '../../context/AppContext';
 import { useNavigate } from 'react-router-dom';
 

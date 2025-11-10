@@ -86,7 +86,7 @@ function MapClickHandler({ onMapClick }: { onMapClick: (lat: number, lng: number
   return null;
 }
 
-const MapComponent: React.FC<MapComponentProps> = ({ weatherData, onMapClick, clickedLocation }) => {
+const MapComponent: React.FC<MapComponentProps> = ({ onMapClick, clickedLocation }) => {
   const [currentLocation, setCurrentLocation] = useState<[number, number]>([-23.9608, -46.3332]);
   const [fishingTanks, setFishingTanks] = useState<FishingTank[]>([]);
 
